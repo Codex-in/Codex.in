@@ -1,3 +1,18 @@
 #include <stdio.h>
 
 int main()
+{
+int a = 0;
+int b = 1;
+int n,i;
+printf("Enter the number which you want out the value of fabonacci series\n");
+scanf("%d",&n);
+printf("%d\n,a);
+for(i = 0; i<n; i++)
+{
+b = a+b;
+a = b-a;
+printf("%d\n,a);
+}
+return 0;
+}
